@@ -45,9 +45,9 @@ $(document).ready(function(){
 $(document).ready(function(){
   $('.images').slick({
   	   // Enables tabbing and arrow key navigation
-  	  accessibility: true,
+  	 // accessibility: true,
   	   // Enable Next/Prev arrows
- 	  arrows: true,
+ 	 // arrows: true,
   	  infinite: true,
       slidesToShow: 1,
       slidesToScroll: 1,
