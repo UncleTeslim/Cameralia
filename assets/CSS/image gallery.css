@@ -14,13 +14,16 @@ body {
   background-position: center;
 }
 
+.navbar {
+font-size: 17px;
+}
+
 #heading {
   text-align: center;
   font-family:'Crimson Text', serif;
   font-weight: bolder;
   color: white;
   font-size: 100px;
-  	
 }
 
 
@@ -29,7 +32,7 @@ body {
   font-family: 'Barlow', sans-serif;
   font-weight: bold;
   color: white;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 img:hover {
@@ -58,7 +61,7 @@ img:hover {
   font-size: 20px;
   font-family: 'Yeon Sung', cursive;
   color: white;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 /*
@@ -110,3 +113,7 @@ img:hover {
   font-family: 'Yeon Sung', cursive;
   color: white;
 }
+
+*/
+
+
