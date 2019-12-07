@@ -170,20 +170,16 @@
 	<!--I initialy struggled with the pictures arrangement cuz they were scattered and not properly arranged.
 	
 	So I asked femi, he thought me two methods:
-
 	 Method 1 
 	 Add this inline style to class="row" (style="display: flex; flex-wrap: wrap; justify-content: center;")
-
 	 Or in your css file add: 
 	 .row {
 	    display: flex; 
 	    flex-wrap: wrap;
 	    justify-content: center;
 	 }
-
 	 Method 2 
 	 You split the photograpy pictures into bits.
-
  ------Say 4 pictures in each split. You then use  a "row" to wrap each split containing 4 pictures.
 	 Then maually define how you want each row to display it's content. e.g
 	(	 
@@ -193,7 +189,6 @@
 		</div>
 	</div>
 	)
-
  !!!!! I chose the second option -->
 <div class="images">
 	<div class="row">
@@ -217,7 +212,9 @@
 				 <img src="https://res.cloudinary.com/uncleteslim/image/upload/c_scale,h_400,w_600/v1573514833/Camera/photography-2188440__340_kbja7e.jpg">
 			</div>
 		</div>
+	</div>
 
+	<div class="row">
 		<div class="col-lg-3 col-sm-6"> 
 			<div class="thumbnail">
 				<img src="https://res.cloudinary.com/uncleteslim/image/upload/c_scale,h_400,w_600/v1573514942/Camera/camera-813814__340_alrxfh.jpg">
@@ -261,7 +258,9 @@
 				 <img src="https://res.cloudinary.com/uncleteslim/image/upload/c_scale,h_400,w_600/v1573515377/Camera/drone-1245980__340_lhfz6h.jpg">
 			</div>
 		</div>
-	<div class="col-lg-3 col-sm-6">
+	</div>
+	<div class="row">
+		<div class="col-lg-3 col-sm-6">
 			<div class="thumbnail"> 
 				<img src="https://res.cloudinary.com/uncleteslim/image/upload/c_scale,h_400,w_600/v1573903503/Camera/camera-4123304__340_pgf1ob.jpg">
 			</div>
@@ -304,6 +303,9 @@
 				<img src="https://res.cloudinary.com/uncleteslim/image/upload/c_scale,h_400,w_600/v1573901126/Camera/drone-1080844__340_flpirk.jpg">
 			</div>	
 		</div>
+	</div>
+	
+	<div class="row">
 
 		<div class="col-lg-3 col-sm-6"> 
 			<div class="thumbnail">
