@@ -14,11 +14,6 @@ body {
   background-position: center;
 }
 
-.row {
-	    display: flex; 
-	    flex-wrap: wrap;
-	    justify-content: center;
-	 }
 .navbar {
 font-size: 17px;
 }
