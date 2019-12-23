@@ -64,12 +64,12 @@ img:hover {
   font-size: 35px;
 }
 
-@media only screen and (max-width: 480px)
+@media only screen and (max-width: 480px){
   #heading {
-  font-size: 60px;
+  font-size: 50px;
 }
   #intro {
-  font-size: 15px;
+  font-size: 20px;
 }
 }
 
