@@ -68,6 +68,9 @@ img:hover {
   .container  {  
     width : 100%;
   }
+  #heading {
+  font-size: 60px;
+}
 }
 
 
