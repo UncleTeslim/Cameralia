@@ -64,22 +64,7 @@ img:hover {
   font-size: 35px;
 }
 
-@media only screen and (max-width: 480px){
-  
-  .container {
-  position : center;
-    width : 50%;
-  }
-  #heading {
-  font-size: 50px;
-}
-  #intro {
-  font-size: 20px;
-}
-  .slider {
-  font-size : 20px;
-  }
-}
+
 
 
 }
