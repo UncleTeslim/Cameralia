@@ -64,7 +64,7 @@ img:hover {
   font-size: 35px;
 }
 
-@media only screen and (min-width: 400px)
+@media only screen and (max-width: 480px)
   #heading {
   font-size: 60px;
 }
