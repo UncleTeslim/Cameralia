@@ -64,6 +64,15 @@ img:hover {
   font-size: 35px;
 }
 
+@media only screen and (max-width: 480px) {
+  .jumbotron  {
+    display : inline-block;
+    position: fixed;
+  }
+}
+
+
+}
 /*
 .one {
   width: 30%;
