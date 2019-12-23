@@ -1,12 +1,12 @@
 body {
-  height: 100%;
-	width: 100%;
-  padding-top: 70px;
-  font-family: 'Yeon Sung', cursive;
-  font-weight: bold;
-  background: url(https://res.cloudinary.com/uncleteslim/image/upload/v1573747929/photo-1508061562735-7b4dabf32202_mrklfo.jpg);
-  background-size: cover;
-  background-position: center;
+  	height: 100vh;
+	width: 100vw;
+  	padding-top: 70px;
+  	font-family: 'Yeon Sung', cursive;
+  	font-weight: bold;
+  	background: url(https://res.cloudinary.com/uncleteslim/image/upload/v1573747929/photo-1508061562735-7b4dabf32202_mrklfo.jpg);
+ 	 background-size: cover;
+  	background-position: center;
 
 }
 
