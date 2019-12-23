@@ -65,8 +65,7 @@ img:hover {
 }
 
 @media only screen and (max-width: 480px) {
-  .jumbotron  {
-    display : inline-block;
+  .jumbotron  {  
     position: fixed;
   }
 }
