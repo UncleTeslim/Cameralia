@@ -65,7 +65,7 @@ img:hover {
 }
 
 @media only screen and (max-width: 480px) {
-  .jumbotron  {  
+  .container  {  
     width : 100%;
   }
 }
