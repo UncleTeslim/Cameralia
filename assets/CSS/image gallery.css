@@ -65,6 +65,10 @@ img:hover {
 }
 
 @media only screen and (max-width: 480px){
+  
+  .container {
+  position : center;
+  }
   #heading {
   font-size: 50px;
 }
