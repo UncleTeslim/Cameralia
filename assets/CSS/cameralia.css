@@ -19,7 +19,6 @@ body {
 
 @media (max-width: 800px) {
 	.jumbotron {
-		padding: 50px 0;
 		min-height: 300px;
 	}
 	.jumbotron h1 {
@@ -28,7 +27,6 @@ body {
 	.jumbotron p {
 		font-size: 20px;
 	}
-}
 }
 
 .navbar {
