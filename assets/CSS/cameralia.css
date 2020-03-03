@@ -114,3 +114,13 @@ img:hover {
   color: white;
 }
 */
+
+@media (max-width: 576px) {
+    #heading {
+      font-size: 30px;
+    }
+    #intro {
+      font-size: 20px;
+      text-align: center;
+    }
+}
