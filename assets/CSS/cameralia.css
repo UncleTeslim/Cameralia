@@ -116,6 +116,13 @@ img:hover {
 */
 
 @media (max-width: 576px) {
+	.container {
+		align-items: center;
+	}
+}
+
+
+@media (max-width: 576px) {
     #heading {
       font-size: 40px;
     }
