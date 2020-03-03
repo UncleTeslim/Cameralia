@@ -5,33 +5,40 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Cameralia</title>
 	 <link rel="icon" 
-	     type="image/png" 
-	     href="favicon.png">
+     type="image/png" 
+     href="favicon.png">
 	<link href="https://fonts.googleapis.com/css?family=Barlow|Crimson+Text|Dancing+Script|Indie+Flower|Yeon+Sung&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/CSS/cameralia.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
 	<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-	
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" ></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </head>
 <body>
 
 <!-- NAV BAR!!!!!!!!!!--->
 <nav class="navbar   navbar-inverse navbar-fixed-top">
-	<a class="navbar-brand" id="headers" href="#">Cameralia</a>
-	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+
+    
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button> 
-  
+
+      <a class="navbar-brand" id="headers" href="#">Cameralia</a>
+    </div>
+
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav" id=headers>
         
         
         <li class="nav-item">
@@ -41,16 +48,16 @@
         <a class="nav-link fa" href="#">Login <i class="fas fa-user"></i></a>
       </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-	 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
       </form>
       <ul class="nav navbar-nav navbar-right">
 
-      	<li class="nav-item dropdown">
-           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Popular Makers
-        </a>
+      	<li class="dropdown">
+          <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Popular Makers <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="https://www.nikon.com" target="_blank"><b>Nikon</b></a></li>
             <li><a href="https://www.usa.canon.com" target="_blank"><b>Canon</b></a></li>
@@ -64,9 +71,7 @@
 
 
         <li class="dropdown ">
-        	 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Buy Cameras
-        </a>
+        	<a href="#"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Buy Cameras <span class="caret"></span></a>
         	<ul class="dropdown-menu">
             <li><a href="https://www.amazon.com/Camera-Photo-Film-Canon-Sony/b?ie=UTF8&node=502394#" target="_blank"><b>Amazon</b></a></li>
             <li><a href="https://www.aliexpress.com/w/wholesale-cameras-digital.html" target="_blank"><b>AliExpress</b></a></li>
@@ -79,9 +84,7 @@
 
         </li>
         <li class="dropdown ">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Learn Photogaphy
-        </a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Learn Photography<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="https://www.geofflawrence.com/index.html" target="_blank"><b>Geoff Lawrence</b></a></li>
             <li><a href="https://www.udemy.com/courses/photography/?search-query=photography" target="_blank"><b>Udemy</b></a></li>
@@ -91,7 +94,9 @@
           </ul>
 
             <li class="dropdown ">
-        	 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-ellipsis-h"></i> </a>
+        	<a href="#"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> 
+ <i class="fa fa-ellipsis-h"></i>
+</a>
 <ul class="dropdown-menu dropdown-menu--center">
   <li><a href="https://en.wikipedia.org/wiki/History_of_the_camera" target="_blank"> <b>History of Cameras </b><span class="sr-only">(current)</span></a></li>
   <li><a href="https://en.wikipedia.org/wiki/Category:Pioneers_of_photography" target="_blank"><b>Pioneers of Photography</b></a></li>
@@ -333,9 +338,6 @@
 
 </body>
 
-	
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" ></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
 <script type="text/javascript" src="assets/JS/cameralia.js"></script>
