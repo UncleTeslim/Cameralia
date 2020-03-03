@@ -17,24 +17,6 @@ body {
   background-position: center;
 }
 
-@media (max-width: 800px) {
-	container {
-		padding: 50px 20px;
-	}
-}
-
-@media (max-width: 800px) {
-	.jumbotron {
-		min-height: 300px;
-	}
-	.jumbotron h1 {
-		font-size: 30px;
-	}
-	.jumbotron p {
-		font-size: 20px;
-	}
-}
-
 .navbar {
 font-size: 17px;
 }
@@ -75,13 +57,6 @@ img:hover {
   margin-top: 25px;
   margin-bottom: 25px;
 }
-
-@media (max-width: 800px) {
-	.Quotes {
-		min-height: 300px;
-		font-size: 25px;
-	}
-
 
 #slickquotes {
   width: 30%;
