@@ -137,7 +137,7 @@ img:hover {
 
 
 @media (max-width: 576px) {
-	.images img {
+	.thumbnail {
 		padding-left: 2px;
 		padding-right: 2px;
 	}
