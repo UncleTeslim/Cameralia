@@ -138,7 +138,6 @@ img:hover {
 
 @media (max-width: 576px) {
 	.thumbnail {
-		padding-left: 2px;
-		padding-right: 2px;
+		padding: 2px;
 	}
 }
