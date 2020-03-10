@@ -1,14 +1,18 @@
-body {
-  	height: 100vh;
-	width: 100vw;
-  	padding-top: 70px;
-  	font-family: 'Yeon Sung', cursive;
-  	font-weight: bold;
-	background-color: whitesmoke;
-  	//background: url(https://res.cloudinary.com/uncleteslim/image/upload/v1573747929/photo-1508061562735-7b4dabf32202_mrklfo.jpg);
- 	 background-size: cover;
-  	background-position: center;
+/* * {
+  box-sizing: border-box;
+} */
 
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  font-family: 'Yeon Sung', cursive;
+  font-weight: bold;
+  background-color: #f5f5f5;
+}
+
+.container {
+  padding: 5px;
 }
 
 .jumbotron {
@@ -16,6 +20,17 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+nav {
+  margin: 3px;
+  font-family: 'Yeon Sung', cursive; ;
+}
+
+.box img{
+  max-width: 225px;
+  margin: 2px;
+}
+
 
 .navbar {
 font-size: 17px;
@@ -55,7 +70,7 @@ img:hover {
   width: 100%;
   overflow: hidden;
   margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 #slickquotes {
@@ -68,8 +83,8 @@ img:hover {
   font-size: 35px;
 }
 
-/*
-.one {
+
+/* .one {
   width: 30%;
   float: left;
   text-align: center;
@@ -112,32 +127,23 @@ img:hover {
   font-size: 20px;
   font-family: 'Yeon Sung', cursive;
   color: white;
-}
-*/
+} */
 
-@media (max-width: 576px) {
-	.container {
-		padding: 3px;
-	}
-}
 
+/* 
 
 @media (max-width: 576px) {
     #heading {
-      font-size: 40px;
+      font-size: 30px;
     }
     #intro {
       font-size: 20px;
       text-align: center;
     }
-	#slickquotes {
+    #slickquotes {
       font-size: 20px;
     }
-}
-
-
-@media (max-width: 576px) {
-	.thumbnail {
-		padding: 2px;
-	}
-}
+    .thumbnail {
+      flex-basis:50%; 
+    }
+} */
