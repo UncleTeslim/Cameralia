@@ -13,7 +13,7 @@ camera.onmouseout = function() {
 //$(".jumbotron").css("background", "$.cloudinary.image("william-bayreuther-hfk6xOjQlFk-unsplash_muryh3.jpg);
 
 //The following code is used to make a dropdown hover effect
-$('ul.nav li.dropdown').hover(function() {
+$('ul.navbar-nav li.dropdown').hover(function() {
 
   $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn(100);
 
