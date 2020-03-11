@@ -130,20 +130,22 @@ img:hover {
 } */
 
 
-/* 
+@media (max-width: 576px) {
+  .container {
+    padding: 3px;
+  }
+}
+
 
 @media (max-width: 576px) {
     #heading {
-      font-size: 30px;
+      font-size: 40px;
     }
     #intro {
       font-size: 20px;
       text-align: center;
     }
-    #slickquotes {
+  #slickquotes {
       font-size: 20px;
     }
-    .thumbnail {
-      flex-basis:50%; 
-    }
-} */
+}
