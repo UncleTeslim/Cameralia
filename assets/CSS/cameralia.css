@@ -145,6 +145,13 @@ img:hover {
       font-size: 20px;
       text-align: center;
     }
+  
+    .Quotes {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    
   #slickquotes {
       font-size: 20px;
     }
