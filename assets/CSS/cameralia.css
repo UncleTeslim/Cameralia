@@ -138,6 +138,11 @@ img:hover {
 
 
 @media (max-width: 576px) {
+    
+  .container {
+    padding: 2px;
+  }
+       
     #heading {
       font-size: 40px;
     }
@@ -149,7 +154,6 @@ img:hover {
     .Quotes {
       margin-top: 5px;
       margin-bottom: 5px;
-      padding-bottom: 2px;
     }
 
     
